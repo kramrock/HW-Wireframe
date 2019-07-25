@@ -1,62 +1,69 @@
 * {
-    box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
+    background: gray;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: #777;
-    width: 960px;
+    width: 1000px;
     font-size: 18px;
     margin: auto;
 }
 header {
+    background: #ccc;
     padding: 20px;
     margin-bottom: 10px;
 }
 nav {
+    background: #ccc;
     padding: 20px;
     margin-bottom: 20px;
 }
-header, nav, section, aside, footer {
-    background: #f1f0f0;
-}
+
 section {
+    background: #ccc;
     float: left;
-    width: 495px;
+    width: 450px;
     height: 300px;
     margin-bottom: 5px;
 }
 article {
     background: gray;
     color: white;
-    padding: 20px;
+    
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 20px;
 }
 aside {
+    background: #ccc;
     float: right;
-    width: 450px;
+    width: 405px;
     height: 300px;
+    margin-bottom: 5px;
 }
 h3 {
-    float: left;
-    overflow: auto;
-    margin-top: 30px;
-    margin-left: 33.33%;
-    margin-right: 33.33%;
-    width: 33.33%;
-    background: #f1f0f0;
+    background: #ccc;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    background: #ccc;
     color: #777;
 }
 p {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 10px;
-    background: #f1f0f0;
+    background: #ccc;
     color: #777;
 }
 footer {
-    width: 960px;
+   
     padding: 20px;
     clear: both;
     text-align: center;
+    background: #ccc;
 }
