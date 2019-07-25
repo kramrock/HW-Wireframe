@@ -15,6 +15,7 @@ header {
     background: #ccc;
     padding: 20px;
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 nav {
     background: #ccc;
@@ -25,40 +26,42 @@ nav {
 section {
     background: #ccc;
     float: left;
-    width: 450px;
-    height: 300px;
-    margin-bottom: 5px;
+    width: 495px;
+    height: 250px;
+    margin-bottom: 20px;
 }
 article {
     background: gray;
     color: white;
-    
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
     padding: 20px;
+    height: 125px;
 }
 aside {
     background: #ccc;
     float: right;
     width: 405px;
-    height: 300px;
-    margin-bottom: 5px;
+    height: 250px;
+    margin-bottom: 20px;
 }
 h3 {
     background: #ccc;
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: auto;
+    margin-bottom: 10px;
     background: #ccc;
     color: #777;
+    padding: 10px;
+    width: 95%px;
 }
 p {
     margin-top: 10px;
+    margin-bottom: 30px;
     padding: 10px;
     background: #ccc;
     color: #777;
+    width: 95%px;
 }
 footer {
    
